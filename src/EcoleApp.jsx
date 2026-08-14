@@ -228,8 +228,7 @@ function CarteStat({ icone: Icone, libelle, valeur, delta, accent }) {
         <p className="carte-stat-valeur">{valeur}</p>
         <p className="carte-stat-libelle">{libelle}</p>
       </div>
-     </div>
-        {delta && <span className="carte-stat-delta"><ArrowUpRight size={13} />{delta}</span>}
+           {delta && <span className="carte-stat-delta"><ArrowUpRight size={13} />{delta}</span>}
     </div>
   );
 }
